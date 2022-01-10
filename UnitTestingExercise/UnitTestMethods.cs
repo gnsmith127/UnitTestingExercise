@@ -41,6 +41,17 @@ namespace UnitTestingExercise
 
         // Create 2 methods that will utilize the [Fact] tests you wrote
 
+        public bool IsTired()
+        {
+            return true;
+        }
+
+        public string MyName()
+        {
+           return "Gianna";
+        }
+
+
 
     }
 }
